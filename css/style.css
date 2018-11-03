@@ -60,6 +60,7 @@ h1{
   font-family:cambria;
   padding-left:16px;
   padding-top:40px;
+  font-size:13px;
  }
 
  input{
@@ -128,6 +129,7 @@ h1{
   font-family:cambria;
   padding-left:15px;
   padding-top:150px;
+  font-size:13px;
 
  }
 #home{
@@ -189,4 +191,223 @@ color:black;
  
 }
 
+#order1{
+ background-color:#d9f1e0;
+ background-image: url(../images/trolley.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+.order2 h1{
+ color:black;
+ padding-bottom:-1px;
+ }
+
+ .exit{
+  float:right !important;
+ }
+ 
+ .menu ul{
+  list-style-type: none;
+  background-color:#dec6de;
+  overflow:hidden;
+  height:72px;
+ }
+ .menu ul li a{
+  display:block;
+  float:left;
+  text-decoration:none;
+  padding-right: 40px;
+  padding-top: 28px;
+  font-family:georgia;
+  font-weight:bold;
+  font-size:16px;
+  color:black;
+
+ }
+
+ 
+ .file{
+  padding-left:20px;
+  padding-top:4%;
+  float:left;
+  font-family:cambria;
+  font-weight:bold;
+  font-size:13px;
+ }
+
+ .parcel1 button{
+  background-color:coral;
+  border:1px solid brown;
+  padding:10px;
+  font-family:georgia;
+  font-weight:bold;
+  font-size: 15px;
+  padding-top:3px;
+  margin-top:10px;
+  
+
+ }
+ .parcel1{
+  font-family:georgia;
+  font-size:15px;
+  font-weight:bold;
+  margin-left:450px;
+    
+ }
+
+ .parcel1 label{
+  padding:5px;
+  
+ }
+ #while{
+  background-color:#7bd4e2;
+
+ }
+
+ .parcel{
+  font-family:cambria;
+  font-weight:bold;
+  font-size:16px;
+  padding-left:250px;
+  float:left;
+  
+  
+ }
+
+ .pal{
+  
+  font-family:cambria;
+  font-weight:bold;
+  font-size:16px;
+  float:right;
+  padding-right:350px;
+ }
+
+ .file2{
+  font-family:cambria;
+  float:left;
+  font-size:13px;
+  font-weight:bold;
+  padding-top:6%;
+  margin-right:10%;
+  padding-left:15px;
+
+ }
+
+ #eyes{
+  background-color:peachpuff;
+ }
+
+ table{
+  
+   margin-right: 20px;
+   color: black;
+   border: 2px solid rgb(0, 41, 128);
+   border-radius: 4px;
+   padding: 20px;
+   width:80%;
+   font-family: Cambria;
+   font-size:15px;
+   background-color:wheat; 
+   margin-left:80px; 
+   margin-top:3%;
+   border-collapse: collapse;
+   border-right:1px solid black;
+       
+}
+
+td,th{
+ padding: 10px;
+ font-family: Cambria;
+ font-size:15px;
+ border-bottom:1px solid black; 
+ border-left:1px solid black;
+ border-right: 1px solid black;
+ text-align:left;
+ 
+ }
+ table button{
+ font-size: 12px;
+ padding: 10px 24px;
+ font-family: cambria;
+ border-radius: 4px;
+ border: 2px solid royalblue;
+ 
+}
+.pen{
+ font-family:cambria;
+ font-size:13px;
+ font-weight:bold;
+ margin-top:200px;
+ padding-left:5px;
+}
+#locate{
+background-color: skyblue;
+background-image: url(../images/truck.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+.pen2{
+ font-family:cambria;
+ font-size:13px;
+ font-weight:bold;
+ margin-top:250px;
+ padding-left:5px;
+
+}
+#cancel{
+background-image: url(../images/lorry3.jpg);
+background-color: skyblue;
+background-repeat: no-repeat;
+background-size: cover;
+ }
+
+ #note{
+  background-image: url(../images/bike.jpg);
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
+ .list,.list a{
+   font-family:cambria;
+   font-size:15px;
+   font-weight:bold;
+   padding-left:25px;
+   color:darkblue;
+ }
+ .list a{
+   text-decoration: none;
+   color:darkblue;
+   padding:2px;
+     
+ }
+ .list2{
+   font-family: cambria;
+   font-size:16px;
+   float:right;
+   padding-right:240px;
+   margin-top:-228px;
+   
+ }
+
+ .check{
+   background-color:palevioletred;
+   padding:30px;
+   border:1px solid brown;
+ }
+
+ .check2{
+  font-family:cambria;
+  padding-left:16px;
+  padding-top:100px;
+  font-size:13px;
+  font-weight:bold;
+  
+ }
+ 
 
