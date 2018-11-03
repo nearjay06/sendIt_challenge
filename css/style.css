@@ -1,0 +1,192 @@
+body {
+ width: 100%;
+ height: 100%;
+ background-color:#E5C4F1;
+}
+
+#send{
+ background-image: url(../images/deliver4.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+h1{
+ text-align:center;
+ font-family:cambria;
+ font-size:55px;
+ color:#E15C14;
+}
+
+.flex-container,.well1{
+ display:flex;
+ flex-direction: column;
+ font-family:cambria;
+ font-weight:bold;
+ font-size:16px; 
+ width:30%;
+ margin-left:33%;
+ margin-top: 10px;
+  
+}
+
+.flex-container button{
+ border-radius:10px;
+ border:1px solid mediumseagreen;
+ padding-top:5px;
+ padding-bottom:5px;
+ background-color:rgb(250, 150, 0);
+ font-size:16px;
+ margin-top:2%;
+ width:180px;
+ transition: 0.3s;
+ font-family: cambria;
+  
+}
+.flex-container button:hover {
+ opacity: 1;
+ background-color:palegreen;
+}
+
+.flex-container a{
+ text-decoration: none;
+ font-family:cambria;
+ padding:2px;
+ color:red;
+ font-weight:bold;
+  
+ }
+ 
+ .foot{
+  font-family:cambria;
+  padding-left:16px;
+  padding-top:40px;
+ }
+
+ input{
+  margin-top:5px;
+  padding:10px;
+  margin-bottom:5px;
+  border-radius:12px;
+  border:1px solid peru;
+  
+ }
+
+ .log{
+  font-family:cambria;
+  font-weight:bold;
+  font-size:16px;
+  width:30%;
+ margin-left:33%;
+ margin-top: 10px;
+ text-align:center;
+ }
+
+ .well1 input{
+  border:1px solid purple;
+ }
+
+ .well1 button{
+ border-radius:10px;
+ border:1px solid rgb(91, 102, 96);
+ padding-top:5px;
+ padding-bottom:5px;
+ background-color:rgb(90, 147, 170);
+ font-size:16px;
+ margin-top:2%;
+ width:180px;
+ transition: 0.3s;
+ font-family: cambria;
+
+ }
+ .well1 button:hover {
+  opacity: 1;
+  background-color:plum;
+ }
+
+ .well1 a{
+ text-decoration: none;
+ font-family:cambria;
+ padding:3px;
+ color:red;
+ font-weight:bold;
+ } 
+ 
+ #sign{
+  background-image: url(../images/brass.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+
+ .well{
+  font-family:cambria;
+  font-size:20px;
+  margin-top:-8px;
+  text-align:center;
+ }
+
+ .feet{
+  font-family:cambria;
+  padding-left:15px;
+  padding-top:150px;
+
+ }
+#home{
+ background-image: url(../images/box.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.pen h1{
+color:rgb(23, 31, 143);
+text-align:center;
+}
+
+.pen1{
+ font-family:georgia;
+ font-size:20px;
+ font-weight:bold;
+ margin-left:26%;
+ 
+}
+
+.fib{
+ font-family:Cambria;
+ font-weight:bold;
+ padding-left:15px;
+ font-size:15px;
+ padding-top:230px;
+}
+
+.page button{
+ border:1px solid maroon;
+ border-radius:24px;
+ transition: 0.3s;
+ background-color: aquamarine;
+ padding:5px;
+ font-family:cambria;
+ font-weight:bold;
+ font-size:16px;
+  
+}
+.page button:hover {
+ opacity: 1;
+ background-color:rgb(81, 123, 212);
+}
+
+.page a{
+text-decoration:none;
+font-family:cambria;
+font-weight:bold;
+padding:5px;
+font-size:16px;
+color:black;
+}
+
+.page{
+ font-family:cambria;
+ font-size:20px;
+ font-weight:bold;
+ margin-left:37%;
+ 
+}
+
+
