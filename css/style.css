@@ -459,26 +459,25 @@ background-size: cover;
    font-family: cambria;
    font-weight: bold;
    font-size: 16px;
-   padding-top:50px;
+   padding-top:40px;
    margin-left:170px;
-
+  
    }
 
    textarea{
      border:1px solid purple;
      padding:3px;
    }
+ .fill1 button {
+   padding: 10px;
+   border: 1px solid purple;
+   font-family: cambria;
+   font-weight: bold;
+   border-radius: 10px;
+   margin-top: 10px;
 
-     
- .fill1 button{
-   padding:10px;
-   border:1px solid purple;
-   font-family:cambria;
-   font-weight:bold;
-   border-radius:4px;
-   margin-top:10px;
-
- }
+       }
+       
  .fill2{
    font-family: cambria;
    font-weight: bold;
@@ -500,9 +499,10 @@ background-size: cover;
   font-size:15px;
   background-color:rgb(233, 225, 233); 
   margin-left:350px; 
-  margin-top:3%;
+  /* margin-top:3%; */
   border-collapse: collapse;
   border-right:1px solid black;
+  
        
 }
 
