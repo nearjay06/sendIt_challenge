@@ -92,13 +92,20 @@ h1{
  padding-top:5px;
  padding-bottom:5px;
  background-color:rgb(90, 147, 170);
- font-size:16px;
+ /* font-size:16px; */
  margin-top:2%;
  width:180px;
  transition: 0.3s;
- font-family: cambria;
-
+ /* font-family: cambria; */
+ 
  }
+.well1 button a{
+  font-family:cambria;
+  font-weight:bold;
+  font-size:16px;
+  color:black;
+}
+
  .well1 button:hover {
   opacity: 1;
   background-color:plum;
@@ -110,6 +117,7 @@ h1{
  padding:3px;
  color:red;
  font-weight:bold;
+ font-size:16px;
  } 
  
  #sign{
