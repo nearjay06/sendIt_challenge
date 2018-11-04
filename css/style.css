@@ -73,10 +73,10 @@ h1{
  }
 
  .log{
-  font-family:cambria;
-  font-weight:bold;
-  font-size:16px;
-  width:30%;
+ font-family:cambria;
+ font-weight:bold;
+ font-size:16px;
+ width:30%;
  margin-left:33%;
  margin-top: 10px;
  text-align:center;
@@ -113,7 +113,7 @@ h1{
  } 
  
  #sign{
-  background-image: url(../images/brass.jpg);
+ background-image: url(../images/brass.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  }
@@ -410,4 +410,112 @@ background-size: cover;
   
  }
  
+ #type{
+  background-image: url(../images/write.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
+
+ .create{
+   font-family: cambria;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+   padding: 3px;
+ }
+
+ .photo{
+   padding-left:20px;
+ }
+
+ .photo1{
+   padding-left:40px;
+   font-family:cambria;
+   font-weight:bold;
+ }
+
+ .count{
+   float: right;
+   padding-right:200px;
+   font-family: cambria;
+   font-weight:bold;
+   
+ }
+
+ .counter1,.counter2{
+  float: right;
+  margin-right: 20px;
+  color: darkblue;
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 5px;
+ }
+ .counter,.count1{
+   color:black;
+ }
+
+ .fill{
+   font-family: cambria;
+   font-weight: bold;
+   font-size: 16px;
+   padding-top:50px;
+   margin-left:170px;
+
+   }
+
+   textarea{
+     border:1px solid purple;
+     padding:3px;
+   }
+
+     
+ .fill1 button{
+   padding:10px;
+   border:1px solid purple;
+   font-family:cambria;
+   font-weight:bold;
+   border-radius:4px;
+   margin-top:10px;
+
+ }
+ .fill2{
+   font-family: cambria;
+   font-weight: bold;
+   font-size:16px;
+   float:right;
+   padding-right:500px;
+   padding-top:2px;
+   padding-bottom:3px;
+ }
+
+ .fill3 table{
+  margin-right: 20px;
+  color: black;
+  border: 2px solid rgb(0, 41, 128);
+  border-radius: 4px;
+  /* padding: 20px; */
+  width:50%;
+  font-family: Cambria;
+  font-size:15px;
+  background-color:rgb(233, 225, 233); 
+  margin-left:350px; 
+  margin-top:3%;
+  border-collapse: collapse;
+  border-right:1px solid black;
+       
+}
+
+.fill3 td,th{
+padding: 10px;
+font-family: Cambria;
+font-size:15px;
+border-bottom:1px solid black; 
+border-left:1px solid black;
+border-right: 1px solid black;
+text-align:left;
+}
+
+
+
 
