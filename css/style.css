@@ -133,7 +133,7 @@ h1{
 
  }
 #home{
- background-image: url(../images/box.png);
+ background-image: url(../images/delivery-truck.png);
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -153,9 +153,9 @@ text-align:center;
 .fib{
  font-family:Cambria;
  font-weight:bold;
- padding-left:15px;
+ padding-left:13px;
  font-size:15px;
- padding-top:230px;
+ padding-top:240px;
 }
 
 .page button{
