@@ -516,6 +516,13 @@ border-right: 1px solid black;
 text-align:left;
 }
 
+#admin{
+  background-image: url(../images/deliver3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 
 
 
