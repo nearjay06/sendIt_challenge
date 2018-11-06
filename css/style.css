@@ -15,6 +15,11 @@ h1{
  font-family:cambria;
  font-size:55px;
  color:#E15C14;
+} 
+@media (max-width:500px){
+  h1{
+    font-size:20px;
+  }
 }
 
 .flex-container,.well1{
@@ -29,6 +34,15 @@ h1{
   
 }
 
+.flex-container select{
+  padding:10px;
+  border:1px solid rgb(250,150,0);
+  margin-top:8px;
+  border-radius:10px;
+  font-family:cambria;
+  font-weight:bold;
+}
+
 .flex-container button{
  border-radius:10px;
  border:1px solid mediumseagreen;
@@ -40,8 +54,24 @@ h1{
  width:180px;
  transition: 0.3s;
  font-family: cambria;
+ margin-left:100px;
+ 
   
 }
+
+.move3{
+  padding-left:60px;
+}
+
+.move4{
+  padding-left: 30px;
+}
+
+.move5{
+  padding-left:20px;
+}
+
+
 .flex-container button:hover {
  opacity: 1;
  background-color:palegreen;
@@ -58,8 +88,8 @@ h1{
  
  .foot{
   font-family:cambria;
-  padding-left:16px;
-  padding-top:40px;
+  padding-left:15px;
+  padding-top:50px;
   font-size:13px;
  }
 
@@ -84,7 +114,17 @@ h1{
 
  .well1 input{
   border:1px solid purple;
- }
+   }
+
+  .well1 select{
+    padding:10px;
+    border:1px solid purple;
+    margin-top:8px;
+    border-radius:10px;
+    font-family:cambria;
+    font-weight:bold;
+    
+  }
 
  .well1 button{
  border-radius:10px;
@@ -97,11 +137,16 @@ h1{
  width:180px;
  transition: 0.3s;
  font-family: cambria;
+ margin-left:100px;
 
  }
  .well1 button:hover {
   opacity: 1;
   background-color:plum;
+ }
+
+ .well1 p{
+   padding-left:80px;
  }
 
  .well1 a{
@@ -127,8 +172,9 @@ h1{
 
  .feet{
   font-family:cambria;
+  font-weight:bold;
   padding-left:15px;
-  padding-top:150px;
+  padding-top:200px;
   font-size:13px;
 
  }
@@ -146,7 +192,7 @@ text-align:center;
  font-family:georgia;
  font-size:20px;
  font-weight:bold;
- margin-left:26%;
+ margin-left:25%;
  
 }
 
@@ -154,8 +200,8 @@ text-align:center;
  font-family:Cambria;
  font-weight:bold;
  padding-left:13px;
- font-size:15px;
- padding-top:240px;
+ font-size:13px;
+ padding-top:250px;
 }
 
 .page button{
@@ -214,6 +260,7 @@ color:black;
   overflow:hidden;
   height:72px;
  }
+
  .menu ul li a{
   display:block;
   float:left;
@@ -227,10 +274,67 @@ color:black;
 
  }
 
- 
- .file{
-  padding-left:20px;
-  padding-top:4%;
+ @media (max-width:500px){
+  .menu ul{
+    float:none;
+    height:30px;
+    padding-bottom:15px;
+    padding-right:10px;
+    padding-left:10px;
+    
+  }
+  .menu ul li a{
+    padding-right:12px;
+    padding-top:20px;
+    font-size:12px;
+    
+  }
+
+  .flex-container button, .well1 button{
+    float:none;
+    border-radius:10px;
+    font-size:13px;
+    margin-top:2%;
+    width:80px;
+    margin-left:20px;
+    font-weight:bold;
+
+  }
+
+  .flex-container p, .well1 p{
+    float:left;
+    font-size:13px;
+    margin-left:10px;
+      
+  }
+
+  .well1 p{
+    float:none;
+    font-size:13px;
+        
+   }
+
+   .pen1{
+     font-size:13px;
+     float:none;
+     padding-left:2px;
+   }
+   .page{
+     font-size:14px;
+     /* padding-right:2px; */
+     padding-right:50px;
+     padding-top:20px;
+            
+   }
+   .fib{
+    padding-top:300px;
+  }
+        
+   }
+
+  .file{
+  padding-left:15px;
+  padding-top:5%;
   float:left;
   font-family:cambria;
   font-weight:bold;
@@ -246,9 +350,10 @@ color:black;
   font-size: 15px;
   padding-top:3px;
   margin-top:10px;
+  border-radius:16px;
   
-
  }
+
  .parcel1{
   font-family:georgia;
   font-size:15px;
@@ -261,9 +366,66 @@ color:black;
   padding:5px;
   
  }
+
+ @media only screen and (max-width:500px){
+  .parcel1 {
+    font-size:12px;
+    float:none;
+    margin-left:100px;
+
+  }
+
+  .parcel1 button{
+    font-size:12px;
+    float:none;
+    padding:10px;
+        
+  }
+    
+  #order1{
+    font-size:15px;
+    display:block;
+
+  }
+  .file{
+    float:none;
+    padding-top:160px;
+  }
+  .list{
+    width:100%;
+    
+       
+  }
+
+  .list2{
+    width:100%;
+    
+    
+    
+  }
+
+  .check{
+    padding:5px;
+    width:100%;
+  }
+  .pen2{
+    padding-top:50px;
+  }
+  
+  
+  
+
+  
+    
+   
+  }
+  
+ 
+
+
+  
  #while{
   background-color:#7bd4e2;
-
  }
 
  .parcel{
@@ -272,13 +434,11 @@ color:black;
   font-size:16px;
   padding-left:250px;
   float:left;
-  
-  
+    
  }
 
  .pal{
-  
-  font-family:cambria;
+   font-family:cambria;
   font-weight:bold;
   font-size:16px;
   float:right;
@@ -290,9 +450,9 @@ color:black;
   float:left;
   font-size:13px;
   font-weight:bold;
-  padding-top:6%;
+  padding-top:7%;
   margin-right:10%;
-  padding-left:15px;
+  padding-left:10px;
 
  }
 
@@ -310,8 +470,8 @@ color:black;
    width:80%;
    font-family: Cambria;
    font-size:15px;
-   background-color:wheat; 
-   margin-left:80px; 
+   background-color:rgb(245, 222, 179, 0.4); 
+   margin-left:7.3%; 
    margin-top:3%;
    border-collapse: collapse;
    border-right:1px solid black;
@@ -340,7 +500,7 @@ td,th{
  font-family:cambria;
  font-size:13px;
  font-weight:bold;
- margin-top:200px;
+ margin-top:210px;
  padding-left:5px;
 }
 #locate{
@@ -355,7 +515,7 @@ background-image: url(../images/truck.jpg);
  font-family:cambria;
  font-size:13px;
  font-weight:bold;
- margin-top:250px;
+ margin-top:270px;
  padding-left:5px;
 
 }
@@ -377,7 +537,8 @@ background-size: cover;
    font-family:cambria;
    font-size:15px;
    font-weight:bold;
-   padding-left:25px;
+   width:50%;
+   float:left;
    color:darkblue;
  }
  .list a{
@@ -390,21 +551,22 @@ background-size: cover;
    font-family: cambria;
    font-size:16px;
    float:right;
-   padding-right:240px;
-   margin-top:-228px;
+  width:50%;
    
  }
 
  .check{
-   background-color:palevioletred;
-   padding:30px;
-   border:1px solid brown;
+  background-color: palevioletred;
+  border: 1px solid brown;
+  width: 100%;
+  height: 267px;
+  
  }
 
  .check2{
   font-family:cambria;
   padding-left:16px;
-  padding-top:100px;
+  padding-top:105px;
   font-size:13px;
   font-weight:bold;
   
@@ -440,7 +602,7 @@ background-size: cover;
    padding-right:200px;
    font-family: cambria;
    font-weight:bold;
-   
+        
  }
 
  .counter1,.counter2{
@@ -451,24 +613,26 @@ background-size: cover;
   border-radius: 4px;
   padding: 5px;
  }
+
  .counter,.count1{
    color:black;
  }
 
- .fill{
+  .fill{
    font-family: cambria;
    font-weight: bold;
    font-size: 16px;
-   padding-top:50px;
-   margin-left:170px;
+      
+  }
 
+  .fill1{
+    font-family:cambria;
+    font-weight:bold;
+    font-size:16px;
+    padding-left:200px;
+    float:left;
+    padding-top:85px;
    }
-
-   textarea{
-     border:1px solid purple;
-     padding:3px;
-   }
-
      
  .fill1 button{
    padding:10px;
@@ -486,20 +650,27 @@ background-size: cover;
    float:right;
    padding-right:500px;
    padding-top:2px;
-   padding-bottom:3px;
+   
+ }
+
+ .fill3{
+  font-family:cambria;
+  font-weight:bold;
+  font-size:16px;
+  float:right;
+  padding-right:200px;
+  padding-bottom:100px;
+
  }
 
  .fill3 table{
-  margin-right: 20px;
   color: black;
   border: 2px solid rgb(0, 41, 128);
   border-radius: 4px;
-  /* padding: 20px; */
   width:50%;
   font-family: Cambria;
   font-size:15px;
-  background-color:rgb(233, 225, 233); 
-  margin-left:350px; 
+  background-color:rgb(233, 225, 233, 0.4); 
   margin-top:3%;
   border-collapse: collapse;
   border-right:1px solid black;
@@ -522,6 +693,44 @@ text-align:left;
   background-size: cover;
 
 }
+#table-wrapper{
+  overflow-x: auto;
+}
+
+.word{
+    font-family:cambria;
+    font-size:13px;
+    font-weight:bold;
+    margin-top:50px;
+    padding-left:40px;
+   
+}
+
+.flick{
+  font-family:cambria;
+  float:left;
+  font-size:13px;
+  font-weight:bold;
+  padding-top:27px;
+  padding-left:10px;
+}
+
+ img{
+  padding-top:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

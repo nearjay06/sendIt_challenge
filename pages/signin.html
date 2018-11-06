@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Signin Page|Sign in</title>
   <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js"></script>
+
 </head>
 
 <body id="sign">
@@ -16,14 +18,20 @@
     <h2><b>Welcome to SendIT</b></h2>
   </div>
 
-  <form action="./profile.html">
+  <form action="" onsubmit="login()" id="choose">
     <div class="well1">
       <label>Username or Email</label>
-      <input type="text" name="Username or Email" required>
+      <input type="text" name="Username or Email">
       <label>Password</label>
-      <input type="text" name="Password" required>
+      <input type="text" name="Password">
 
-      <button><b>Sign in</b></button>
+      <!-- <select name="level">
+        <option value="admin">Admin</option>
+        <option value="user">User</option>
+      </select><br/> -->
+      <input type ="checkbox" id ="admin"> admin
+
+      <button type="submit"><b>Sign in</b></button>
       <p><b>Don't have an account?<a href="./signup.html">Sign Up</a></b></p>
   </div>
   </form>
