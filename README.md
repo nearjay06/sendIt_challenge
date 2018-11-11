@@ -1,6 +1,16 @@
 SENDIT PROJECT: Overview
 SendIT is a courier service that helps users deliver parcels to different destinations.
 
+GETTING STARTED:
+
+To start the project, requirement is a github repository.
+
+PREREQUISITES
+
+- A text editor such as VS Code
+- Web browser such as Google Chrome, Opera Mini
+
+
 FEATURES
 - Users can create an account and log in.
 - Users can create a parcel delivery order.
@@ -11,12 +21,26 @@ FEATURES
 - User can only cancel or change the destination of a parcel delivery when the parcel’s status.
 - Users who created the parcel delivery order can cancel the order.
 
-ASSIGNMENT
-- Create stories for the above features on pivotal tracker.
-- Create a directory called UI in your local Git repo.
-- Create the necessary page or pages to support the project features.
-- Host  UI templates on GitHub Pages.
+LANGUAGES
+- HTML
+- CSS
 
+PIVOTAL TRACKER
+
+https://www.pivotaltracker.com/n/projects/2222386
+
+GITHUB REPO
+
+https://github.com/nearjay06/sendIt_challenge
+
+Gh-pages
+
+https://nearjay06.github.io/sendIt_challenge/pages.html
+
+
+Author
+
+Okecho Joan
 
 
 
