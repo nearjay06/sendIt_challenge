@@ -1,4 +1,5 @@
 SENDIT PROJECT: Overview
+
 SendIT is a courier service that helps users deliver parcels to different destinations.
 
 GETTING STARTED:
@@ -35,7 +36,7 @@ https://github.com/nearjay06/sendIt_challenge
 
 Gh-pages
 
-https://nearjay06.github.io/sendIt_challenge/pages.html
+https://nearjay06.github.io/sendIt_challenge/pages/index.html
 
 
 Author
